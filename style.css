@@ -78,11 +78,11 @@ body , h1 , h2 , p ,a {
   margin: 0 10px;
 }
 .introducao{
-  font-size: 3rem;
+  font-size: 3em;
   line-height: 1;
-  max-width: 960px;
+   max-width: 960px;
+   margin: 0 auto;
   padding: 60px 10px;
-  margin: 0 auto;
   border-bottom: 2px solid #122ab2;
 }
 .sobre-container{
