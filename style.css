@@ -352,9 +352,7 @@ margin-right: 10px;
 }
 
 
-#sobre.ativo{
-	animation: show .8s forwards;
-}
+
 /* Animacao Scroll */
 #sobre{
 	opacity: 0;
@@ -364,4 +362,13 @@ margin-right: 10px;
 	opacity: 1;
 	transform: translate3d(0,0,0);
 	transition: .5s;
+}
+.produto-item{
+  opacity: 0;
+	transform: translate3d(0,-80px,0);
+}
+.produto-item.ativo{
+  opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: 1.1s;
 }
