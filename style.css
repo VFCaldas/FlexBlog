@@ -5,7 +5,7 @@ body , h1 , h2 , p ,a {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito',Arial, Helvetica, sans-serif;
 
   }
   *{
@@ -349,4 +349,19 @@ margin-right: 10px;
 }
 .footer a{
   color: #66d9eb;
+}
+
+
+#sobre.ativo{
+	animation: show .8s forwards;
+}
+/* Animacao Scroll */
+#sobre{
+	opacity: 0;
+	transform: translate3d(-80px,0,0);
+}
+#sobre.ativo{
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: .5s;
 }
